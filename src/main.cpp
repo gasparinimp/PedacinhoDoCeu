@@ -1,7 +1,8 @@
 #include <iostream>
+#include <cassert>
 #include "bib.hpp"
 
 int main() {
-    std::cout << "Sistema Pedacinho do Ceu iniciado!" << std::endl;
+    assert(calcularJuros(100, 0.10) == 110); 
     return 0;
 }
